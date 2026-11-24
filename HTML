@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIAT | Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2 class="logo">NIAT<span>.</span></h2>
+            <p class="portal">STUDENT PORTAL</p>
+
+            <nav>
+                <a href="#home" class="active">▦ Dashboard</a>
+                <a href="#profile">👤 My Profile</a>
+                <a href="#attendance">📊 Attendance</a>
+                <a href="#timetable">📅 Timetable</a>
+                <a href="#assignments">📝 Assignments</a>
+                <a href="#exams">📚 Examinations</a>
+                <a href="#results">🏆 Results</a>
+                <a href="#announcements">📢 Announcements</a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <a href="#contact">⚙ Settings</a>
+                <a href="#contact">❓ Help & Support</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Topbar -->
+            <header class="topbar">
+                <div>
+                    <h2>Student Dashboard</h2>
+                    <p>Tuesday, November 24, 2026</p>
+                </div>
+
+                <div class="student">
+                    <span class="notification">🔔</span>
+                    <div class="avatar">H</div>
+                    <div>
+                        <h4>Harsha</h4>
+                        <small>B.Tech Student</small>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Welcome -->
+            <section id="home" class="welcome">
+                <div>
+                    <p>STUDENT OVERVIEW</p>
+                    <h1>Good Morning, Harsha! 👋</h1>
+                    <h3>Welcome back to your learning journey.</h3>
+                    <p>Stay focused, stay curious, and achieve your goals.</p>
+                </div>
+                <div class="welcome-icon">🎓</div>
+            </section>
+
+            <!-- Summary Cards -->
+            <section class="stats">
+
+                <div class="stat-card blue">
+                    <div class="stat-icon">📊</div>
+                    <p>Total Attendance</p>
+                    <h2>92%</h2>
+                    <small>Good attendance</small>
+                </div>
+
+                <div class="stat-card purple">
+                    <div class="stat-icon">🏆</div>
+                    <p>Overall CGPA</p>
+                    <h2>8.7</h2>
+                    <small>Sample performance</small>
+                </div>
+
+                <div class="stat-card orange">
+                    <div class="stat-icon">📝</div>
+                    <p>Pending Assignments</p>
+                    <h2>03</h2>
+                    <small>Need your attention</small>
+                </div>
+
+                <div class="stat-card green">
+                    <div class="stat-icon">📚</div>
+                    <p>Upcoming Exams</p>
+                    <h2>02</h2>
+                    <small>Prepare yourself</small>
+                </div>
+
+            </section>
+
+            <!-- Attendance -->
+            <section id="attendance" class="content-section">
+                <h2 class="section-heading">Attendance Overview</h2>
+
+                <div class="panel">
+                    <div class="attendance-item">
+                        <div class="subject">
+                            <span>Mathematics</span>
+                            <b>92%</b>
+                        </div>
+                        <div class="progress"><div style="width:92%"></div></div>
+                    </div>
+
+                    <div class="attendance-item">
+                        <div class="subject">
+                            <span>Programming</span>
+                            <b>88%</b>
+                        </div>
+                        <div class="progress"><div style="width:88%"></div></div>
+                    </div>
+
+                    <div class="attendance-item">
+                        <div class="subject">
+                            <span>Web Development</span>
+                            <b>95%</b>
+                        </div>
+                        <div class="progress"><div style="width:95%"></div></div>
+                    </div>
+
+                    <div class="attendance-item">
+                        <div class="subject">
+                            <span>Physics</span>
+                            <b>85%</b>
+                        </div>
+                        <div class="progress"><div style="width:85%"></div></div>
+                    </div>
+
+                    <div class="attendance-item">
+                        <div class="subject">
+                            <span>English</span>
+                            <b>90%</b>
+                        </div>
+                        <div class="progress"><div style="width:90%"></div></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Timetable -->
+            <section id="timetable" class="content-section">
+                <h2 class="section-heading">Weekly Timetable</h2>
+
+                <div class="panel table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Monday</th>
+                                <th>Tuesday</th>
+                                <th>Wednesday</th>
+                                <th>Thursday</th>
+                                <th>Friday</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>9:00 - 10:00</td>
+                                <td>Maths</td>
+                                <td>Physics</td>
+                                <td>Python</td>
+                                <td>English</td>
+                                <td>Maths</td>
+                            </tr>
+
+                            <tr>
+                                <td>10:00 - 11:00</td>
+                                <td>Python</td>
+                                <td>Web Dev</td>
+                                <td>Maths</td>
+                                <td>Physics</td>
+                                <td>Python</td>
+                            </tr>
+
+                            <tr>
+                                <td>11:00 - 12:00</td>
+                                <td>English</td>
+                                <td>Maths</td>
+                                <td>Web Dev</td>
+                                <td>Python</td>
+                                <td>Web Dev</td>
+                            </tr>
+
+                            <tr>
+                                <td>1:00 - 2:00</td>
+                                <td>Web Dev</td>
+                                <td>English</td>
+                                <td>Physics</td>
+                                <td>Maths</td>
+                                <td>Physics</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Assignments -->
+            <section id="assignments" class="content-section">
+                <h2 class="section-heading">Assignments</h2>
+
+                <div class="panel">
+                    <div class="assignment">
+                        <div>
+                            <h3>Python Programming Basics</h3>
+                            <p>Subject: Programming</p>
+                            <small>Due: November 26, 2026</small>
+                        </div>
+                        <span class="status pending">Pending</span>
+                    </div>
+
+                    <div class="assignment">
+                        <div>
+                            <h3>HTML & CSS Website</h3>
+                            <p>Subject: Web Development</p>
+                            <small>Due: November 28, 2026</small>
+                        </div>
+                        <span class="status submitted">Submitted</span>
+                    </div>
+
+                    <div class="assignment">
+                        <div>
+                            <h3>Mathematics Practice</h3>
+                            <p>Subject: Mathematics</p>
+                            <small>Due: November 30, 2026</small>
+                        </div>
+                        <span class="status pending">Pending</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Exams -->
+            <section id="exams" class="content-section">
+                <h2 class="section-heading">Upcoming Examinations</h2>
+
+                <div class="exam-container">
+                    <div class="exam-card">
+                        <span>📚 MID EXAM</span>
+                        <h3>Mathematics</h3>
+                        <p>November 29, 2026</p>
+                        <small>Time: 10:00 AM</small>
+                    </div>
+
+                    <div class="exam-card">
+                        <span>💻 PRACTICAL EXAM</span>
+                        <h3>Python Programming</h3>
+                        <p>December 03, 2026</p>
+                        <small>Time: 2:00 PM</small>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results -->
+            <section id="results" class="content-section">
+                <h2 class="section-heading">Academic Performance</h2>
+
+                <div class="panel">
+                    <div class="result-item">
+                        <span>Mathematics</span>
+                        <b>85 / 100</b>
+                    </div>
+                    <div class="result-item">
+                        <span>Programming</span>
+                        <b>90 / 100</b>
+                    </div>
+                    <div class="result-item">
+                        <span>Web Development</span>
+                        <b>95 / 100</b>
+                    </div>
+                    <div class="result-item">
+                        <span>Physics</span>
+                        <b>82 / 100</b>
+                    </div>
+                    <div class="result-item">
+                        <span>English</span>
+                        <b>88 / 100</b>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Announcements -->
+            <section id="announcements" class="content-section">
+                <h2 class="section-heading">College Announcements</h2>
+
+                <div class="panel">
+                    <div class="announcement">
+                        <span>📢</span>
+                        <div>
+                            <h3>Web Development Assignment</h3>
+                            <p>Submit your project before the deadline.</p>
+                            <small>November 24, 2026</small>
+                        </div>
+                    </div>
+
+                    <div class="announcement">
+                        <span>📅</span>
+                        <div>
+                            <h3>Mid Examinations</h3>
+                            <p>Check the examination schedule.</p>
+                            <small>November 23, 2026</small>
+                        </div>
+                    </div>
+
+                    <div class="announcement">
+                        <span>🎉</span>
+                        <div>
+                            <h3>College Events</h3>
+                            <p>Stay updated about upcoming activities.</p>
+                            <small>November 20, 2026</small>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Profile -->
+            <section id="profile" class="content-section">
+                <h2 class="section-heading">Student Profile</h2>
+
+                <div class="panel profile-panel">
+                    <div class="avatar large">H</div>
+                    <div>
+                        <h2>Harsha</h2>
+                        <p>B.Tech - First Year</p>
+                        <p>College: NIAT</p>
+                        <p>Student ID: SAMPLE001</p>
+                        <p>Email: student@example.com</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer id="contact">
+                <p>© 2026 NIAT Student Portal. All Rights Reserved.</p>
+                <p>Designed for Student Learning</p>
+            </footer>
+
+        </main>
+    </div>
+
+</body>
+</html>
